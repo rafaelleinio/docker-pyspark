@@ -30,3 +30,4 @@ RUN apt-get update && \
     mkdir -p $SPARK_HOME/conf && \
     echo "spark.hadoop.fs.s3.impl=org.apache.hadoop.fs.s3a.S3AFileSystem" >> $SPARK_HOME/conf/spark-defaults.conf
 
+COPY . docker-pyspark/
