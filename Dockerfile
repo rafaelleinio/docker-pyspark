@@ -10,6 +10,7 @@ LABEL org.label-schema.name="Apache PySpark $SPARK_VERSION" \
 ENV PATH="/opt/miniconda3/bin:${PATH}"
 ENV PYSPARK_PYTHON="/opt/miniconda3/bin/python"
 
+# setup basic dependencies, python3 and pyspark
 RUN apt-get update && \
     apt-get install -y curl bzip2 --no-install-recommends && \
     apt-get install -y build-essential && \
@@ -30,4 +31,6 @@ RUN apt-get update && \
     mkdir -p $SPARK_HOME/conf && \
     echo "spark.hadoop.fs.s3.impl=org.apache.hadoop.fs.s3a.S3AFileSystem" >> $SPARK_HOME/conf/spark-defaults.conf
 
+# python requirements
 COPY . docker-pyspark/
+RUN pip install -U -r docker-pyspark/requirements3.txt --extra-index-url https://quintoandar.github.io/python-package-server/
