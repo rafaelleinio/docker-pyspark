@@ -64,7 +64,6 @@ python3-openid==3.1.0
 pytz==2019.1
 pytzdata==2019.1
 PyYAML==5.1
-quintoandar-logger==0.1.3
 requests==2.22.0
 s3transfer==0.2.1
 setproctitle==1.1.10
@@ -82,5 +81,4 @@ Werkzeug==0.14.1
 whichcraft==0.6.0
 WTForms==2.2.1
 zope.deprecation==4.4.0
-quintoandar-teravoz-client==0.1.4
 celery==4.3.0
