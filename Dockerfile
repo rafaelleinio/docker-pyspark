@@ -33,4 +33,4 @@ RUN apt-get update && \
 
 # python requirements
 COPY . docker-pyspark/
-RUN pip install -U -r docker-pyspark/requirements3.txt --extra-index-url https://quintoandar.github.io/python-package-server/
+RUN pip install -U -r docker-pyspark/requirements3.txt
