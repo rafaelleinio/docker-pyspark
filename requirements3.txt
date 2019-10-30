@@ -77,7 +77,7 @@ thrift==0.11.0
 tzlocal==1.5.1
 unicodecsv==0.14.1
 urllib3==1.25.2
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 whichcraft==0.6.0
 WTForms==2.2.1
 zope.deprecation==4.4.0
