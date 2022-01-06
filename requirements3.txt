@@ -81,4 +81,4 @@ Werkzeug==0.14.1
 whichcraft==0.6.0
 WTForms==2.2.1
 zope.deprecation==4.4.0
-celery==4.3.0
+celery==5.2.2
