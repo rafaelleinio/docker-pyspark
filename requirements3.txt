@@ -9,7 +9,7 @@ chardet==3.0.4
 Click==7.0
 colorama==0.4.1
 configparser==3.5.3
-cookiecutter==1.6.0
+cookiecutter==2.1.1
 croniter==0.3.30
 defusedxml==0.6.0
 dill==0.2.9
