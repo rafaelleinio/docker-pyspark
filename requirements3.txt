@@ -1,6 +1,6 @@
 alembic==0.9.10
 apache-airflow==1.10.3
-arrow==0.14.4
+arrow==0.15.1
 Babel==2.7.0
 binaryornot==0.4.4
 boto3==1.9.183
